@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>pdl Download Manager</title>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.6">
+	<meta name="viewport" content="user-scalable=no">
+	<link rel="apple-touch-icon" href="favicon.ico" />
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link href="css/style.css" media="screen" rel="stylesheet" type="text/css" />
+	<link href="css/mobile.css" media="screen and (max-width: 480px)" rel="stylesheet" type="text/css" />
+	<script type='text/javascript' src='js/jquery.js'></script>
+	<script type='text/javascript' src='js/snakelephant.js'></script>
+</head>
+<body>
+
+<div id='downloadForm'>
+	<div class='input-background'><input type='text' id='formInput' /></div>
+	<div class='input-button button' id='formSubmit'>Download</div>
+	<div id='formLoader' style='display: none; float: left; margin-left: 40px;'><img src='/images/loader.gif'/></div>
+</div>
+
+<div id='downloadMessage'></div>
+
+<h1>Current downloads</h1>
+
+<div id='currentDownloads'></div>
+
+<h1>Completed downloads</h1>
+
+<div id='completedDownloads'></div>
+
+<div id='spacedata'>
+	<div class='freespace-bar orange'>
+		<span id='freespace-bar' class='spacedata-percent' style='width: 0%'></span>
+	</div>
+</div>
+
+<div id='copyright'>
+	<a href='https://github.com/TarekEZZAT/Python Downloader' target='_blank'>pdl</a>
+</div>
+</body>
+</html>

@@ -1,2 +1,4 @@
-# PDL-Python-Downloader
-A file downloader in Python
+pdl
+============
+
+python file downloader with web interface
